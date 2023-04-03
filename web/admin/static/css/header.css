@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 16, 2022, 9:43:06 PM
+    Author     : DELL
+*/
+.header {
+    position: fixed !important;
+    z-index: 2 !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.header .header-left,
+.header .header-right,
+.header #search,
+.header #minimize,
+.header #appendix,
+.header #appendix div {
+    display: inline-block  !important;
+}
+
+.header .header-left {
+    background-color: #2a3042;
+    width: 250px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #6c707b;
+}
+
+.header .header-right {
+    background-color: #ffffff !important;
+    position: absolute !important;
+    top:0px  !important;
+    margin-left: 0px !important;
+    height: 65.67px !important;
+    width: calc(100vw - 250px) !important;
+    box-sizing: border-box !important;
+    padding: 10px 20px !important;
+    border-bottom: 1px solid #6c707b !important;
+}
+.main-nav>li>a{
+    display: flex !important;
+    line-height: 40px !important;
+}
+.header-right svg {
+    padding: 13px 0px;
+}
+
+.header img {
+    width: 200px;
+}
+
+.header #minimize {
+    cursor: pointer;
+    width: 50px;
+}
+
+.header #search {
+    padding: 10px 10px;
+    background-color: #f8f8fb;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.header #appendix {
+    padding: 10px 10px;
+    position: absolute;   
+    top: 0px;
+    right: 20px;
+}
+
+.header #search svg {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    fill: #b4b4b4;
+}
+
+.header input {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.header input:focus {
+    outline: none;
+}
